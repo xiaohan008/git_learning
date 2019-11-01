@@ -21,5 +21,10 @@
     self.title = @"我的页面";
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    self.view.backgroundColor = [UIColor greenColor];
+}
+
 
 @end
