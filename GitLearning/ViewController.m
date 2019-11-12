@@ -21,6 +21,7 @@
     self.title = @"首页";
     NSLog(@"111111");
     NSLog(@"222222");
+    NSLog(@"333333");
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
